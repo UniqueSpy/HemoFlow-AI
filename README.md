@@ -168,10 +168,8 @@ with workflow-based orchestration and Human-in-the-Loop decision making.
 HemoFlow-AI
 │
 ├── Approval-Center
-├── Transfer-Tracking
-├── Inventory-Management
-├── AI-Insights
-├── Architecture
+├── Dashbaord
+├── LoginValidation
 ├── README.md
 └── LICENSE
 ```
