@@ -1,0 +1,36 @@
+{
+  "$schema": "https://cloud.uipath.com/draft/2024-12/entry-point",
+  "$id": "entry-points.json",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "c0b541c5-204a-47d3-9174-c1cc7fdf254d",
+      "type": "Process",
+      "input": {
+        "type": "object",
+        "properties": {
+          "in_EmployeeId": {
+            "type": "string"
+          },
+          "in_Password": {
+            "type": "string"
+          },
+          "in_HospitalName": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "in_EmployeeId"
+        ]
+      },
+      "output": {
+        "type": "object",
+        "properties": {
+          "out_IsValid": {
+            "type": "boolean"
+          }
+        }
+      }
+    }
+  ]
+}
